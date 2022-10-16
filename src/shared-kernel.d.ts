@@ -2,3 +2,4 @@
 // TODO: RU: Глобальные типы - работают без импорта
 
 type Email = string
+type Id = number

@@ -16,6 +16,8 @@ function Button<E extends ElementType = typeof defaultElement>(p: ButtonProps<E>
 
 	const classNames = [s.button, p.className].join(' ')
 
+	console.log('render button')
+
 	return (
 		<TagName {...otherProps} className={classNames}>
 			{children}
