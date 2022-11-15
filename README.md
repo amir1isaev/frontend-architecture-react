@@ -2,7 +2,7 @@
 
 For [architecture design][refs-splitting] the methodology suggests operating with [familiar abstractions][refs-adaptability], but in a more consistent and consistent order.
 
-### [`Layers`][refs-splitting-layers]
+### [`Layers`]
 
 The first level of abstraction is **according to the scope of influence**
 
@@ -13,13 +13,13 @@ The first level of abstraction is **according to the scope of influence**
 - `entities` - business entities *(viewer, order, ...)*
 - `shared` - reused infrastructure code *(UIKit, libs, API, ...)*
 
-### [`Slices`][refs-splitting-slices]
+### [`Slices`]
 
 The second level of abstraction is **according to the business domain**
 
 The rules by which the code is divided into slices *depend on the specific project and its business rules* and are not determined by the methodology
 
-### [`Segments`][refs-splitting-segments]
+### [`Segments`]
 
 The third level of abstraction is **according to the purpose in the implementation**
 
